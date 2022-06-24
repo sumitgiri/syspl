@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY Cataloge- SUMIT GIRI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+	<header>
+		<div class="tophead">
+			<div class="brandlogo"> SumitGiri</div>
+			<div>
+				<span class="menulines" onclick="openNav()">&#9776;</span>
+			</div>
+		</div>
+	</header>
+	<div class="sidenav" id="mysidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+		<a href="#"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
+		<a href="#"><i class="fa fa-user" aria-hidden="true"></i> ACCOUNT</a>
+		<a href="#"><i class="fa-solid fa-images" aria-hidden="true"></i> PHOTOS</a>
+		<a href="#"><i class="fa fa-video" aria-hidden="true"></i> VIDEOS</a>
+		<a href="#"><i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i> LOGOUT</a>
+	</div>
+
+
+	<nav class="nav">
+		<img class="logo" src="images/dr.png">
+		<ul>
+			<li><a href="#">PHOTOS</a></li>
+			<li><a href="#">VIDEOS</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+	<div>
+<img class="head" src="images/okk.jpg">
+</div>
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="SEARCH">
+      <button type="submit" value="SEARCH" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   
+</div>
+</div>
+<h3 class="heading">Latest Photos</h3>
+
+<div class="grid">
+	 <img src="images/sun.jpg">
+	 <img src="images/rose.jpg">
+	 <img src="images/yl.jpg">
+	 <img src="images/yl.jpg">
+	 <img src="images/bl.jpg">
+	 <img src="images/pl.jpg">
+	 <img src="images/sun.jpg">
+	 <img src="images/rose.jpg">
+	
+	<img src="images/yl.jpg">
+	 <img src="images/bl.jpg">
+	 
+	
+	
+
+	
+
+</div>
+
+	<script>
+		function openNav(){
+			document.getElementById('mysidenav').style.width= "250px";
+		}
+
+		function closeNav(){
+			document.getElementById('mysidenav').style.width= "0px";
+		}
+	</script>
+
+</body>
+</html>
